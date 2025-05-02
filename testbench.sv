@@ -219,22 +219,6 @@ initial begin
     uvm_config_db#(virtual Mesh_interface)::set(null, "uvm_test_top.env.agnt[15].drv", "vif", intf15);
     uvm_config_db#(virtual Mesh_interface)::set(null, "uvm_test_top.env.agnt[15].mon", "vif", intf15);
 
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[0].*", "vif", intf0);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[1].*", "vif", intf1);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[2].*", "vif", intf2);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[3].*", "vif", intf3);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[4].*", "vif", intf4);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[5].*", "vif", intf5);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[6].*", "vif", intf6);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[7].*", "vif", intf7);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[8].*", "vif", intf8);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[9].*", "vif", intf9);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[10].*", "vif", intf10);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[11].*", "vif", intf11);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[12].*", "vif", intf12);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[13].*", "vif", intf13);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[14].*", "vif", intf14);
-    // uvm_config_db#(virtual Mesh_interface)::set(null, "env.agnt[15].*", "vif", intf15);
 end
 
 
