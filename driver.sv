@@ -67,12 +67,10 @@ endtask: run_phase
 task drive(Mesh_sequence_item item);
     @(posedge vif.clk)
     vif.reset<=item.reset;
-   // @(posedge vif.clk)
     vif.in_packet<=item.packet;
     vif.si<=1;
-    // @(posedge vif.clk)
-    // vif.si<=0;
-        @(posedge vif.clk)
+
+    @(posedge vif.clk)
     vif.si <= 0;
 endtask: drive
 endclass: Mesh_driver
