@@ -1,7 +1,7 @@
 ## Platform: Modelsim
 I run UVM code on ModelSim
 
-## Compiling Testbench Files
+## Compiling Files
 Only need to compile `testbench.sv` and `gold_mesh_4x4.sv`.
 
 ## Setting Verbosity in ModelSim
