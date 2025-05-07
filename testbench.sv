@@ -60,7 +60,7 @@ Mesh_interface intf15(.clk(clk));
 
 mesh_4x4 uut(
     .clk(clk),
-    .reset(intf0.reset), //We have issue on reset 4/29/2025
+    .reset(intf0.reset), 
     .PE_0_in_packet(intf0.in_packet),
     .PE_1_in_packet(intf1.in_packet),
     .PE_2_in_packet(intf2.in_packet),
