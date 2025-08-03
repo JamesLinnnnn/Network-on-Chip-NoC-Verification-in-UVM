@@ -2,7 +2,7 @@ class Mesh_reset_sequence extends uvm_sequence;
 
 `uvm_object_utils(Mesh_reset_sequence)
 
-//Send items to driver
+//Send items to Sequencer
 Mesh_sequence_item reset_pkg;
 
 
@@ -226,3 +226,4 @@ function logic [63:0] packet_generator(logic [3:0] source_router, logic [3:0] de
     return packet;
 endfunction: packet_generator
 endclass: Mesh_sequence
+
